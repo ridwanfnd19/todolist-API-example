@@ -148,7 +148,7 @@ class _todo {
                 return {
                     status: 'false',
                     code: 423,
-                    error: 'Data ini bukan milik ada'
+                    error: 'Data tidak tersedia'
                 }
             }
 
