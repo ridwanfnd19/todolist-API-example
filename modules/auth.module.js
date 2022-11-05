@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
 class _auth {
-    login = async (body, res) => {
+    login = async (body) => {
         try {
             const schema = Joi.object({
                 email: Joi.string().required(),
